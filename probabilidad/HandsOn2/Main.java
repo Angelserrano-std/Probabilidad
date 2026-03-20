@@ -5,10 +5,10 @@ public class Main {
         Dataset data = new Dataset();
         int n = Dataset.SIZE;
 
-        int sumX  = Sumatorias.sumX(data);
-        int sumY  = Sumatorias.sumY(data);
-        int sumX2 = Sumatorias.sumX2(data);
-        int sumXY = Sumatorias.sumXY(data);
+        int sumX  = DiscretheMaths.sumX(data);
+        int sumY  = DiscretheMaths.sumY(data);
+        int sumX2 = DiscretheMaths.sumX2(data);
+        int sumXY = DiscretheMaths.sumXY(data);
 
         System.out.println("Dataset:");
         System.out.println("x\t y");
