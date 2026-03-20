@@ -1,4 +1,4 @@
-public class Sumatorias {
+public class DiscretheMaths {
     
     public static int sumX(Dataset data){
         int rst = 0;
